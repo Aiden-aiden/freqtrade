@@ -1,0 +1,43 @@
+{
+    "max_open_trades": 15,
+    "stake_currency": "BTC",
+    "stake_amount": 0.05,
+    "dry_run": false,
+    "minimal_roi": {
+        "40":  0.0,
+        "30":  0.01,
+        "20":  0.02,
+        "0":  0.04
+    },
+    "stoploss": -10.10,
+    "bid_strategy": {
+        "ask_last_balance": 0.0
+    },
+    "exchange": {
+        "name": "bittrex",
+        "key": "key",
+        "secret": "secret",
+        "pair_whitelist": [
+            "BTC_RLC",
+            "BTC_TKN",
+            "BTC_TRST",
+            "BTC_SWT",
+            "BTC_PIVX",
+            "BTC_MLN",
+            "BTC_XZC",
+            "BTC_LUN"
+        ]
+    },
+    "experimental": {
+        "use_sell_signal": false
+    },
+    "telegram": {
+        "enabled": true,
+        "token": "token",
+        "chat_id": "chat_id"
+    },
+    "initial_state": "running",
+    "internals": {
+        "process_throttle_secs": 5
+    }
+}
