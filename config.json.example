@@ -1,5 +1,5 @@
 {
-    "max_open_trades": 3,
+    "max_open_trades": 15,
     "stake_currency": "BTC",
     "stake_amount": 0.05,
     "dry_run": false,
@@ -9,7 +9,7 @@
         "20":  0.02,
         "0":  0.04
     },
-    "stoploss": -0.10,
+    "stoploss": -10.10,
     "bid_strategy": {
         "ask_last_balance": 0.0
     },
